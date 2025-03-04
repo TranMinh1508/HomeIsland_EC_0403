@@ -1,0 +1,171 @@
+{
+    "BuildID": "3629ea94-aefe-4471-ba2d-ecc476e3b8b7",
+    "Command": "project:deploy",
+    "ProjectID": "f9764b7631c968347b71a6067fd79800",
+    "ProjectStateHash": "949e89cdfe29251bd2bb3150017725b344346f9beb52e9f0dd38cc5dd127b16c",
+    "StageCompletedAt": 3,
+    "EarliestFatalError": 0,
+    "StartTime": 1740993564146,
+    "EndTime": 1740993595777,
+    "PlaygroundUserID": 19018,
+    "OperatingSystem": "win32",
+    "UnityPackageID": null,
+    "TargetPlatform": "playground",
+    "UnityVersion": "2022.3.41f1",
+    "LunaVersion": "6.2.1",
+    "LogCount": 7,
+    "Logs": [
+        {
+            "LogID": "bd2777f2-2ff6-4456-9716-1b781af0c536",
+            "Order": 6,
+            "Timestamp": 1740993596039,
+            "Stage": 3,
+            "ErrorType": 3,
+            "ErrorCode": "LP3007",
+            "Description": "You are not using any custom events",
+            "Details": [
+                "You are not using any custom events. It is recommended to use custom events to have a better understanding of the playable."
+            ],
+            "DescriptionValues": [
+                ""
+            ],
+            "DetailsValues": [
+                ""
+            ],
+            "LogCount": 1,
+            "LinePosition": null,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "d9344ebc-0f4c-4e32-8ee1-1ebb57085656",
+            "Order": 6,
+            "Timestamp": 1740993596040,
+            "Stage": 3,
+            "ErrorType": 3,
+            "ErrorCode": "LP3011",
+            "Description": "You are not using any LunaPlaygroundFields attributes.",
+            "Details": [
+                "You are not using any LunaPlaygroundFields attributes, it allows you to configure your playable to different concepts to find the best variation, which can drastically improve playable performance on all ad networks."
+            ],
+            "DescriptionValues": null,
+            "DetailsValues": null,
+            "LogCount": 1,
+            "LinePosition": null,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "555b75d4-4678-4f21-a1c0-0849c1b91307",
+            "Order": 0,
+            "Timestamp": 1740993574009,
+            "Stage": 1,
+            "ErrorType": 0,
+            "ErrorCode": "LP1006",
+            "Description": "Linear color space is not supported",
+            "Details": [
+                "Due to compatibility reasons, Luna is only able to use Gamma color space for rendering. Please adjust your player settings."
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "1658c455-7fd2-4b5d-84de-572052c4b6c3",
+            "Order": 1,
+            "Timestamp": 1740993574010,
+            "Stage": 1,
+            "ErrorType": 2,
+            "ErrorCode": "LP1014",
+            "Description": "We recommend running Runtime Analysis to find and remove all unused code",
+            "Details": [
+                "Navigate to the Runtime Analysis → Code tab to enable code stripping. Before uploading the playable, please make sure to have played all scenario’s of the playable in a development build to make Runtime Analysis work properly."
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "0be94494-e778-448c-a3f8-ec4da9903037",
+            "Order": 2,
+            "Timestamp": 1740993574025,
+            "Stage": 1,
+            "ErrorType": 0,
+            "ErrorCode": "LP1027",
+            "Description": "This DOTween version is not supported",
+            "Details": [
+                "The incorrect DOTween version for this Unity version is in use, please update or downgrade to the recommended version {0} in the package manager. Go to Window → Package Manager."
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [
+                ""
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "cea74d79-53ee-4650-9c9c-d28b630d980f",
+            "Order": 3,
+            "Timestamp": 1740993574026,
+            "Stage": 1,
+            "ErrorType": 0,
+            "ErrorCode": "LP1015",
+            "Description": "This TMP version is not fully supported",
+            "Details": [
+                "The incorrect Text Mesh Pro for this Unity version is in use, please update or downgrade to the recommended version {0} in the package manager. Go to Window → Package Manager"
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [
+                ""
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "dab5f761-74f2-4a11-a417-cf50f23855f3",
+            "Order": 4,
+            "Timestamp": 1740993574026,
+            "Stage": 1,
+            "ErrorType": 0,
+            "ErrorCode": "LP1032",
+            "Description": "Package(s) is not supported in Luna",
+            "Details": [
+                "Currently package(s) com.unity.timeline are not supported in Luna. We recommend you to remove it and workaround it's functionality."
+            ],
+            "DescriptionValues": [
+                "com.unity.timeline (1.7.6)"
+            ],
+            "DetailsValues": [
+                "com.unity.timeline"
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "D:/Practice_Unity/GitHub/EndCard/HomeIsland/HomeIsland_EC_0403/Packages\\manifest.json",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        }
+    ]
+}
